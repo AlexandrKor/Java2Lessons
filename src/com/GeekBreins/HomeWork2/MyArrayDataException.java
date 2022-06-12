@@ -1,4 +1,4 @@
-package HomeWork2;
+package com.GeekBreins.HomeWork2;
 
 public class MyArrayDataException extends RuntimeException{
 

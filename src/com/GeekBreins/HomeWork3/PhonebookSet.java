@@ -1,4 +1,4 @@
-package HomeWork3;
+package com.GeekBreins.HomeWork3;
 
 import java.util.HashSet;
 import java.util.Map;

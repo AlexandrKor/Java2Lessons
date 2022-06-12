@@ -1,6 +1,6 @@
-package HomeWork1.Obstacles;
+package com.GeekBreins.HomeWork1.Obstacles;
 
-import HomeWork1.Participart.Participant;
+import com.GeekBreins.HomeWork1.Participart.Participant;
 
 public class Wall implements Obstacles {
 

@@ -1,4 +1,4 @@
-package HomeWork1.Participart;
+package com.GeekBreins.HomeWork1.Participart;
 
 public interface Participant {
 

@@ -1,9 +1,8 @@
-package HomeWork1;
+package com.GeekBreins.HomeWork1;
 
-import HomeWork1.Obstacles.Obstacles;
-import HomeWork1.Participart.Participant;
+import com.GeekBreins.HomeWork1.Obstacles.Obstacles;
+import com.GeekBreins.HomeWork1.Participart.Participant;
 
-import java.awt.*;
 import java.util.ArrayList;
 
 

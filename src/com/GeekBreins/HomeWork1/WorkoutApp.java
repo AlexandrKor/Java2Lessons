@@ -1,4 +1,4 @@
-package HomeWork1;
+package com.GeekBreins.HomeWork1;
 
 /*1. Создайте три класса Человек, Кот, Робот, которые не наследуются от одного класса. Эти
     классы должны уметь бегать и прыгать (методы просто выводят информацию о действии в консоль).
@@ -14,13 +14,13 @@ package HomeWork1;
     на бег и прыжки. Если участник не смог пройти одно из препятствий, то дальше по списку он
     препятствий не идет */
 
-import HomeWork1.Obstacles.Obstacles;
-import HomeWork1.Obstacles.Treadmill;
-import HomeWork1.Obstacles.Wall;
-import HomeWork1.Participart.Cat;
-import HomeWork1.Participart.Human;
-import HomeWork1.Participart.Participant;
-import HomeWork1.Participart.Robot;
+import com.GeekBreins.HomeWork1.Obstacles.Obstacles;
+import com.GeekBreins.HomeWork1.Obstacles.Treadmill;
+import com.GeekBreins.HomeWork1.Obstacles.Wall;
+import com.GeekBreins.HomeWork1.Participart.Cat;
+import com.GeekBreins.HomeWork1.Participart.Human;
+import com.GeekBreins.HomeWork1.Participart.Participant;
+import com.GeekBreins.HomeWork1.Participart.Robot;
 
 import java.util.List;
 import java.util.Random;
