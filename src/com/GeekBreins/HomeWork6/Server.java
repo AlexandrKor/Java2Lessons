@@ -43,7 +43,7 @@ public class Server {
             while (!Thread.currentThread().isInterrupted()) {
                 try {
                     String message = in.readUTF();
-                    System.out.println("From client: " + message);
+                    System.out.println("От клиента: " + message);
                     if (message.toLowerCase().startsWith("/end")) {
                         System.out.println("Клиент отключился");
                         System.exit(0);

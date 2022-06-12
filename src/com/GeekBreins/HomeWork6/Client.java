@@ -9,9 +9,6 @@ import java.util.Scanner;
 
 public class Client {
 
-    private DataInputStream inputStream;
-    private DataOutputStream outputStream;
-
     public static void main(String[] args) throws IOException {
         new Client().start("localhost", Server.port);
     }
@@ -39,7 +36,7 @@ public class Client {
             while (!Thread.currentThread().isInterrupted()) {
                 try {
                     String message = in.readUTF();
-                    System.out.println("From server: " + message);
+                    System.out.println("От сервера: " + message);
                     if (message.toLowerCase().startsWith("/end")) {
                         System.out.println("Сервер завершил свою работу");
                         System.exit(0);
