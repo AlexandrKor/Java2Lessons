@@ -4,6 +4,7 @@ package com.GeekBreins.HomeWork6;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
+import java.net.ConnectException;
 import java.net.Socket;
 import java.util.Scanner;
 
@@ -23,6 +24,9 @@ public class Client {
             DataOutputStream out = new DataOutputStream(socket.getOutputStream());
             inputThread = runInputThread(in);
             runOutputLoop(out);
+        } catch (ConnectException e) {
+            System.out.println("сервер недоступен");
+            System.exit(0);
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
