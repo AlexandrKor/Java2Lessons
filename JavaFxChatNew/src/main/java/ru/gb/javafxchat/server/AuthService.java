@@ -1,4 +1,4 @@
-package com.geekbreins.javafxchat.server;
+package ru.gb.javafxchat.server;
 
 import java.io.Closeable;
 
